@@ -13,7 +13,8 @@ function page() {
     link: "https://github.com/mon-projet2",
   },
 ];
-  return (
+  return 
+  (
     <section>
       <h2 className="text-3xl font-bold mb-6">Mes projets</h2>
       <div className="grid gap-6 md:grid-cols-2">
@@ -31,7 +32,8 @@ function page() {
           </div>
         ))}
       </div>
-    </section>  )
+    </section>  
+  )
 }
 
 export default page
